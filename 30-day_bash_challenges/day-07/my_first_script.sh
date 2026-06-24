@@ -6,7 +6,8 @@
 # Date: 2026-06-24
 
 # Global variables
-GREETING="Hello, World!" 
+read -p "What's your name? " user
+GREETING="Hello, World! Hello $user!" 
 MAX_COUNT=5
 
 # Functions
